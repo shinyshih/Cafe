@@ -14,6 +14,9 @@
 		3869BD3A1F569CEB00E57EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3869BD381F569CEB00E57EAA /* LaunchScreen.storyboard */; };
 		3869BD451F569CEB00E57EAA /* CafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3869BD441F569CEB00E57EAA /* CafeTests.swift */; };
 		3869BD501F569CEB00E57EAA /* CafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3869BD4F1F569CEB00E57EAA /* CafeUITests.swift */; };
+		3869BD5E1F569FCD00E57EAA /* CafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3869BD5D1F569FCD00E57EAA /* CafeViewController.swift */; };
+		3869BD601F56A84000E57EAA /* CafeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3869BD5F1F56A84000E57EAA /* CafeDetail.swift */; };
+		3869BD621F56AB8400E57EAA /* CafeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3869BD611F56AB8400E57EAA /* CafeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3869BD4B1F569CEB00E57EAA /* CafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3869BD4F1F569CEB00E57EAA /* CafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeUITests.swift; sourceTree = "<group>"; };
 		3869BD511F569CEB00E57EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3869BD5D1F569FCD00E57EAA /* CafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeViewController.swift; sourceTree = "<group>"; };
+		3869BD5F1F56A84000E57EAA /* CafeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetail.swift; sourceTree = "<group>"; };
+		3869BD611F56AB8400E57EAA /* CafeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				3869BD2F1F569CEB00E57EAA /* AppDelegate.swift */,
 				3869BD311F569CEB00E57EAA /* ViewController.swift */,
 				3869BD331F569CEB00E57EAA /* Main.storyboard */,
+				3869BD611F56AB8400E57EAA /* CafeTableViewController.swift */,
+				3869BD5F1F56A84000E57EAA /* CafeDetail.swift */,
+				3869BD5D1F569FCD00E57EAA /* CafeViewController.swift */,
 				3869BD361F569CEB00E57EAA /* Assets.xcassets */,
 				3869BD381F569CEB00E57EAA /* LaunchScreen.storyboard */,
 				3869BD3B1F569CEB00E57EAA /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3869BD601F56A84000E57EAA /* CafeDetail.swift in Sources */,
+				3869BD621F56AB8400E57EAA /* CafeTableViewController.swift in Sources */,
 				3869BD321F569CEB00E57EAA /* ViewController.swift in Sources */,
 				3869BD301F569CEB00E57EAA /* AppDelegate.swift in Sources */,
+				3869BD5E1F569FCD00E57EAA /* CafeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
